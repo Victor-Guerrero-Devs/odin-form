@@ -20,6 +20,20 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1 {
-  font-family: 'norsebold', sans-serif;
+.italicize {
+  font-style: italic;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.img-container {
+  width: 33%;
+}
+
+.content-container {
+  width: 67%;
 }
