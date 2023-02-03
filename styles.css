@@ -32,6 +32,38 @@ body {
 
 .img-container {
   width: 33%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('assets/images/form-bg-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.odin-brand-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 20px;
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+.odin-brand-container img {
+  height: 80px;
+  width: 60px;
+}
+
+.odin-brand-container p {
+  font-family: 'norsebold', sans-serif;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .content-container {
