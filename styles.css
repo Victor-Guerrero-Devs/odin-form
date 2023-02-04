@@ -116,7 +116,7 @@ form h2 {
 .form-field label {
   font-size: 12px;
   text-transform: uppercase;
-  color: rgb(44, 41, 41);
+  color: rgb(26, 24, 24);
   letter-spacing: 1.5px;
 }
 
@@ -148,4 +148,18 @@ button {
   font-size: 16px;
   background-color: rgb(68, 90, 23);
   cursor: pointer;
+}
+
+.log-container {
+  margin-top: 15px;
+}
+
+#login-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#login-text a {
+  text-decoration: none;
+  color: rgb(68, 90, 23);
 }
