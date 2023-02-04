@@ -68,17 +68,60 @@ body {
 .content-container {
   width: 67%;
   padding-top: 80px;
-  padding-left: 40px;
+  background-color: #dae2b6;
 }
 
 .content-container p {
   width: 60ch;
+  padding-left: 40px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .tag {
+  padding-left: 40px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 18px;
+}
+
+form {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+
+form h2 {
+  font-size: 20px;
+  color: rgb(53, 51, 51);
+
+  padding-left: 40px;
+}
+
+.form-content-container {
+  padding-left: 40px;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-field {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(66, 62, 62);
+  letter-spacing: 1.5px;
+}
+
+.form-field input {
+  width: 90%;
+  margin-top: 5px;
+  padding: 3px 2px;
 }
