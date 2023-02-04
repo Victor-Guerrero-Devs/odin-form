@@ -133,3 +133,19 @@ form h2 {
 .form-field .error:focus {
   outline-color: rgb(255, 0, 0) !important;
 }
+
+.btn-container {
+  margin-top: 30px;
+  padding-left: 40px;
+}
+
+button {
+  padding: 10px 40px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: rgb(68, 90, 23);
+  cursor: pointer;
+}
